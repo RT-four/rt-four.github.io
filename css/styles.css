@@ -1,0 +1,419 @@
+/*Content*/
+
+/* font-family: 'Neucha', cursive;
+font-family: 'Pangolin', cursive;
+font-family: 'Rock Salt', cursive; */
+
+/*MAIN*/
+body
+{
+    font-family: 'Neucha', cursive;
+
+    margin: 0 0 0 0;
+    /*background-color: #aadeef;*/
+
+    background-color: #aadeef;
+}
+
+hr
+{
+    display: block;
+
+    width: 30%;
+    margin-top: .5em;
+    margin-right: auto;
+    margin-bottom: .5em;
+    margin-left: auto;
+
+    border-width: 5px;
+    border-style: dotted none none;
+    border-color: #496a93;
+}
+
+/*MENU*/
+
+.topnav
+{
+    position: fixed;
+    z-index: 9999;
+    top: 0;
+
+    overflow: hidden;
+
+    width: 100%;
+
+    background-color: #624979;
+}
+
+.topnav a
+{
+    font-size: 20px;
+
+    float: left;
+
+    padding: 14px 30px;
+
+    text-align: center;
+    text-decoration: none;
+
+    color: #f2f2f2;
+}
+
+.topnav a:hover
+{
+    color: black;
+    background-color: #8f64a0;
+}
+
+.topnav a.active
+{
+    color: white;
+    background-color: #599e9b;
+}
+
+/*TOP*/
+
+.name
+{
+    font-family: 'Rock Salt', cursive;
+    font-size: 18px;
+    /*    display: block;
+    margin-top: 0;
+    margin-right: auto;
+    margin-left: auto;*/
+
+    text-align: center;
+}
+
+.t-cont
+{
+    position: relative;
+
+    width: 100%;
+    height: 520px;
+    margin-top: 50px;
+
+    background-image: linear-gradient(to bottom left, #07031a 20%, #a6dcef, #ddf3f5);
+}
+
+#improg
+{
+    margin-top: 0;
+    padding: 100px 0 0 0;
+}
+
+#bighadder
+{
+    font-size: 39px;
+
+    margin-top: 0;
+    margin-bottom: 0;
+}
+
+/*MIDDLE*/
+
+.m-cont
+{
+    position: relative;
+
+    width: 100%;
+    height: auto;
+    margin-top: 0;
+
+    background-color: #aadeef;
+}
+
+
+.theme
+{
+    font-size: 35px;
+
+    display: block;
+    /*
+    margin-top: 30px;*/
+
+    margin-top: 0;
+    margin-right: auto;
+    margin-left: auto;
+    padding-top: 20px;
+
+    text-align: center;
+}
+
+
+
+#par1
+{
+    position: absolute;
+    /* margin: 30px 200px auto auto;*/
+    right: 100px;
+
+    display: inline-block;
+
+    width: 600px;
+    height: auto;
+}
+
+#par2
+{
+    position: absolute;
+    /* margin: 30px 200px auto auto;*/
+    left: 100px;
+
+    display: inline-block;
+
+    width: 600px;
+    height: auto;
+}
+
+
+.paragraph
+{
+    /* position: absolute;*/
+    font-family: 'Neucha', cursive;
+    font-size: 30px;
+
+    display: block;
+
+    width: 100%;
+    height: 400px;
+}
+
+/*BOTTOM*/
+.b-cont
+{
+    display: flex;
+
+    width: 100%;
+    height: 70px;
+
+    background-color: #624979;
+
+    align-items: center;
+    align-content: center;
+    justify-content: center;
+}
+
+#cont
+{
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 10px;
+
+    width: 30%;
+    margin: 1% 0 0 1%;
+    /*position: absolute;
+ right: 20px;*/
+}
+/*IMAGES*/
+
+.transparent
+{
+    opacity: .7;
+
+    filter: alpha(Opacity=70);
+}
+
+
+
+#mount
+{
+    display: inline-block;
+
+    width: 100%;
+    height: 250px;
+    margin-bottom: 0;
+    padding-bottom: 0;
+}
+
+#UFO
+{
+    position: absolute;
+    top: 10%;
+    right: 5%;
+
+    display: inline-block;
+
+    width: 20%;
+    /*
+    width: 260px;
+    height: 169px;*/
+    height: 27%;
+}
+
+#UFO:hover
+{
+    position: absolute;
+    top: 10%;
+    right: 5%;
+
+    display: inline-block;
+
+    width: 22%;
+    height: 29%;
+}
+
+#bird
+{
+    position: absolute;
+    top: 300px;
+    left: 200px;
+    /*  top: 45%;
+    left: 7%;
+*/
+
+    display: inline-block;
+
+    width: 50px;
+    height: 30px;
+}
+
+
+#question
+{
+    position: absolute;
+    /*margin: auto 120px 20px auto;*/
+    left: 100px;
+
+    display: inline-block;
+
+    width: auto;
+    /*float: left;*/
+    height: 220px;
+}
+
+#programmer
+{
+    position: absolute;
+    /*margin: auto 120px 20px auto;*/
+    right: 100px;
+
+    display: inline-block;
+
+    width: auto;
+    /*float: left;*/
+    height: 220px;
+}
+
+#imgh1
+{
+    z-index: 2;
+    right: 30%;
+    bottom: 15%;
+
+    transform: rotate(15deg);
+}
+
+#imgh1:hover
+{
+    z-index: 999;
+    right: 30%;
+    bottom: 15%;
+
+    height: 220px;
+
+    transform: rotate(15deg);
+}
+
+#imgh2
+{
+    z-index: 1;
+    right: 65%;
+    bottom: 3%;
+
+    transform: rotate(-10deg);
+}
+
+#imgh2:hover
+{
+    z-index: 999;
+    right: 65%;
+    bottom: 3%;
+
+    height: 220px;
+
+    transform: rotate(-10deg);
+}
+
+#imgh3
+{
+    z-index: 3;
+    top: 95%;
+    right: 48%;
+
+    transform: rotate(12deg);
+}
+
+#imgh3:hover
+{
+    z-index: 999;
+    top: 95%;
+    right: 48%;
+
+    height: 220px;
+
+    transform: rotate(12deg);
+}
+
+.tableimg
+{
+    position: absolute;
+
+    width: auto;
+    height: 200px;
+
+    border: 20px solid red;
+    border-image: url('../images/border2.png') 50;
+    /*border-image: url(../cv/images/frame-islamic-png-3.png) 50;*/
+}
+
+#back
+{
+    z-index: 0;
+
+    width: 98%;
+}
+
+#arrow
+{
+    position: absolute;
+    top: 35%;
+    right: 21%;
+
+    height: 15%;
+
+    transform: rotate(-35deg);
+}
+
+.shadow
+{
+    box-shadow: 0 0 10px 5px #000;
+}
+
+/* HOBBIES*/
+
+#board
+{
+    display: inline-block;
+    /* You must set a specified height */
+
+    width: 100%;
+    height: auto;
+    /*  margin: 2% auto auto 2%;*/
+
+    background-color: #aadeef;
+    /*  background-image: url('../images/board.png');
+
+    background-repeat: no-repeat;
+    
+    background-position: center;
+    
+    background-size: cover;
+ */
+}
+
+#clickhere
+{
+    font-size: 29px;
+
+    margin-top: 80px;
+}

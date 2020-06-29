@@ -297,7 +297,7 @@ hr
     /*float: left;*/
     height: 220px;
 }
-
+/*
 #imgh1
 {
     z-index: 2;
@@ -354,6 +354,76 @@ hr
     right: 48%;
 
     height: 30%;
+
+    transform: rotate(12deg);
+}
+*/
+
+#imgh1
+{
+    z-index: 2;
+    /*right: 20%;
+        bottom: 60%;*/
+
+    margin: 20% 30% auto 20%;
+
+    transform: rotate(15deg);
+}
+
+#imgh1:hover
+{
+    z-index: 999;
+    /*  right: 20%;
+        bottom: 60%;*/
+
+    height: 30%;
+    margin: 20% 30% auto 20%;
+
+    transform: rotate(15deg);
+}
+
+#imgh2
+{
+    z-index: 1;
+    /*  right: 65%;
+        bottom: 70%;*/
+
+    margin: 40% 30% auto 10%;
+
+    transform: rotate(-10deg);
+}
+
+#imgh2:hover
+{
+    z-index: 999;
+
+    height: 30%;
+    /*right: 65%;
+        bottom: 70%;*/
+    margin: 40% 30% auto 10%;
+
+    transform: rotate(-10deg);
+}
+
+#imgh3
+{
+    z-index: 3;
+    /* top: 25%;
+        right: 48%;*/
+
+    margin: 30% 30% auto 40%;
+
+    transform: rotate(12deg);
+}
+
+#imgh3:hover
+{
+    z-index: 999;
+    /* top: 25%;
+        right: 48%;*/
+
+    height: 30%;
+    margin: 30% 30% auto 40%;
 
     transform: rotate(12deg);
 }
@@ -524,8 +594,6 @@ font-family: 'Rock Salt', cursive; */
 
     .t-cont
     {
-        
-
         width: 100%;
         height: 20%;
         margin-top: 30px;
@@ -536,7 +604,7 @@ font-family: 'Rock Salt', cursive; */
     #improg
     {
         margin-top: 0;
-      /*  padding: 100px 0 0 0;*/
+        /*  padding: 100px 0 0 0;*/
     }
 
     #bighadder
@@ -551,8 +619,6 @@ font-family: 'Rock Salt', cursive; */
 
     .m-cont
     {
-        
-
         width: 100%;
         height: auto;
         margin-top: 0;
@@ -625,23 +691,23 @@ font-family: 'Rock Salt', cursive; */
 
         width: 100%;
         height: 50px;
+        margin-top: 10%;
+        /*   bottom: 0px;*/
+        margin-bottom: 0;
+
+        text-align: center;
 
         background-color: #624979;
 
         align-items: center;
         align-content: center;
         justify-content: center;
-        margin-top: 10%;
-        /*   bottom: 0px;*/
-        margin-bottom: 0;
-        text-align: center;
     }
 
     #cont
     {
         font-family: 'Times New Roman', Times, serif;
         font-size: 3%;
-
 
         width: 40%;
         margin: 10px 30% auto 30%;
@@ -708,8 +774,7 @@ font-family: 'Rock Salt', cursive; */
         display: inline-block;
 
         width: 4%;
-        height:auto;
-       
+        height: auto;
     }
 
 
@@ -742,8 +807,10 @@ font-family: 'Rock Salt', cursive; */
     #imgh1
     {
         z-index: 2;
-        right: 20%;
-        bottom: 60%;
+        /*right: 20%;
+        bottom: 60%;*/
+
+        margin: 20% 30% auto 20%;
 
         transform: rotate(15deg);
     }
@@ -762,8 +829,10 @@ font-family: 'Rock Salt', cursive; */
     #imgh2
     {
         z-index: 1;
-        right: 65%;
-        bottom: 70%;
+        /*  right: 65%;
+        bottom: 70%;*/
+
+        margin: 40% 30% auto 10%;
 
         transform: rotate(-10deg);
     }
@@ -771,9 +840,8 @@ font-family: 'Rock Salt', cursive; */
     #imgh2:hover
     {
         z-index: 999;
-       right: 65%;
+        right: 65%;
         bottom: 70%;
-
 
         height: 12%;
 
@@ -783,8 +851,10 @@ font-family: 'Rock Salt', cursive; */
     #imgh3
     {
         z-index: 3;
-        top: 25%;
-        right: 48%;
+        /* top: 25%;
+        right: 48%;*/
+
+        margin: 30% 30% auto 40%;
 
         transform: rotate(12deg);
     }
@@ -802,7 +872,8 @@ font-family: 'Rock Salt', cursive; */
 
     .tableimg
     {
-        position: absolute;
+        /*position: absolute;*/
+        display: block;
 
         width: auto;
         height: 9%;

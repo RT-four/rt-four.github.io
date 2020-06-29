@@ -1,0 +1,5 @@
+
+User-agent: *
+
+Sitemap: https://rt-four.github.io/sitemap.xml
+Host: https://rt-four.github.io

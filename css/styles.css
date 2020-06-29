@@ -181,6 +181,28 @@ hr
     height: 400px;
 }
 
+#about {
+    font-size: 29px;
+
+    margin-top: 80px;
+     font-family: 'Neucha', cursive;
+
+
+    display: block;
+/*    text-align: center;*/
+
+    width: 100%;
+   
+
+}
+
+#whydev {
+
+    margin-bottom: 30%;
+    margin-left:80%;
+}
+
+
 /*BOTTOM*/
 .b-cont
 {
@@ -818,10 +840,11 @@ font-family: 'Rock Salt', cursive; */
     #imgh1:hover
     {
         z-index: 999;
-        right: 20%;
-        bottom: 60%;
+        /* right: 20%;
+        bottom: 60%;*/
 
         height: 12%;
+        margin: 20% 30% auto 20%;
 
         transform: rotate(15deg);
     }
@@ -840,10 +863,11 @@ font-family: 'Rock Salt', cursive; */
     #imgh2:hover
     {
         z-index: 999;
-        right: 65%;
-        bottom: 70%;
+        /*   right: 65%;
+        bottom: 70%;*/
 
         height: 12%;
+        margin: 40% 30% auto 10%;
 
         transform: rotate(-10deg);
     }
@@ -862,10 +886,11 @@ font-family: 'Rock Salt', cursive; */
     #imgh3:hover
     {
         z-index: 999;
-        top: 25%;
-        right: 48%;
+        /*   top: 25%;
+        right: 48%;*/
 
         height: 12%;
+        margin: 30% 30% auto 40%;
 
         transform: rotate(12deg);
     }

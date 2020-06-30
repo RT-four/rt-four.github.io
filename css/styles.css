@@ -181,25 +181,22 @@ hr
     height: 400px;
 }
 
-#about {
+#about
+{
+    font-family: 'Neucha', cursive;
     font-size: 29px;
 
-    margin-top: 80px;
-     font-family: 'Neucha', cursive;
-
-
     display: block;
-/*    text-align: center;*/
+    /*    text-align: center;*/
 
     width: 100%;
-   
-
+    margin-top: 80px;
 }
 
-#whydev {
-
+#whydev
+{
     margin-bottom: 30%;
-    margin-left:80%;
+    margin-left: 80%;
 }
 
 
@@ -229,6 +226,32 @@ hr
     margin: 1% 0 0 1%;
     /*position: absolute;
  right: 20px;*/
+}
+
+.myButton {
+    margin-top:10%;
+    box-shadow: 0px 10px 14px -7px #276873;
+    background:linear-gradient(to bottom, #599E9B 5%, #624979 100%);
+    background-color:#599E9B;
+    border-radius:8px;
+    display:inline-block;
+    cursor:pointer;
+    color:#ffffff;
+    font-family:Arial;
+    font-size:20px;
+    font-weight:bold;
+    padding:13px 32px;
+    text-decoration:none;
+    text-shadow:0px 1px 0px #3d768a;
+}
+.myButton:hover {
+    background:linear-gradient(to bottom, #624979 5%, #599E9B 100%);
+    background-color:#408c99;
+
+}
+.myButton:active {
+    position:relative;
+    top:1px;
 }
 /*IMAGES*/
 
@@ -458,7 +481,7 @@ hr
     height: 25%;
 
     border: 20px solid red;
-    border-image: url('../images/border2.png') 50;
+    border-image: url('../images/frame-islamic-png-3.png') 50;
     /*border-image: url(../cv/images/frame-islamic-png-3.png) 50;*/
 }
 
@@ -904,7 +927,7 @@ font-family: 'Rock Salt', cursive; */
         height: 9%;
 
         border: 5px solid red;
-        border-image: url('../images/border2.png') 10;
+        border-image: url('../images/frame-islamic-png-3.png') 10;
         /*border-image: url(../cv/images/frame-islamic-png-3.png) 50;*/
     }
 

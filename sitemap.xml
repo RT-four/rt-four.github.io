@@ -3,17 +3,22 @@
 		<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
 <url>
 	<loc>https://rt-four.github.io/</loc>
-	<lastmod>2020-06-29T07:59:33+01:00</lastmod>
+	<lastmod>2020-06-30T07:39:22+01:00</lastmod>
 	<priority>1.0</priority>
 </url>
 <url>
 	<loc>https://rt-four.github.io/hobbies.html</loc>
-	<lastmod>2020-06-29T07:59:33+01:00</lastmod>
+	<lastmod>2020-06-30T07:39:22+01:00</lastmod>
+	<priority>1.0</priority>
+</url>
+<url>
+	<loc>https://rt-four.github.io/about.html</loc>
+	<lastmod>2020-06-30T07:39:25+01:00</lastmod>
 	<priority>1.0</priority>
 </url>
 <url>
 	<loc>https://rt-four.github.io/index.html</loc>
-	<lastmod>2020-06-29T07:59:35+01:00</lastmod>
+	<lastmod>2020-06-30T07:39:25+01:00</lastmod>
 	<priority>1.0</priority>
 </url>
 </urlset>

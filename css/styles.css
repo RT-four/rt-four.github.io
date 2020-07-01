@@ -49,11 +49,11 @@ hr
 
 .topnav a
 {
-    font-size: 20px;
+    font-size: 22px;
 
     float: left;
 
-    padding: 14px 30px;
+    padding: 14px 50px;
 
     text-align: center;
     text-decoration: none;
@@ -63,8 +63,14 @@ hr
 
 .topnav a:hover
 {
+    transition-duration: 1s;
+    -webkit-transform: rotateZ(2deg);
+        -ms-transform: rotateZ(2deg);
+            transform: rotateZ(2deg);
+
     color: black;
     background-color: #8f64a0;
+    box-shadow: inset 0 0 0 5px #cbebf3;
 }
 
 .topnav a.active
@@ -79,6 +85,11 @@ hr
 {
     font-family: 'Rock Salt', cursive;
     font-size: 18px;
+
+    display: inline-block;
+
+    margin-top: 10%;
+    margin-left: 40%;
     /*    display: block;
     margin-top: 0;
     margin-right: auto;
@@ -228,30 +239,36 @@ hr
  right: 20px;*/
 }
 
-.myButton {
-    margin-top:10%;
-    box-shadow: 0px 10px 14px -7px #276873;
-    background:linear-gradient(to bottom, #599E9B 5%, #624979 100%);
-    background-color:#599E9B;
-    border-radius:8px;
-    display:inline-block;
-    cursor:pointer;
-    color:#ffffff;
-    font-family:Arial;
-    font-size:20px;
-    font-weight:bold;
-    padding:13px 32px;
-    text-decoration:none;
-    text-shadow:0px 1px 0px #3d768a;
-}
-.myButton:hover {
-    background:linear-gradient(to bottom, #624979 5%, #599E9B 100%);
-    background-color:#408c99;
+.myButton
+{
+    font-family: Arial;
+    font-size: 20px;
+    font-weight: bold;
 
+    display: inline-block;
+
+    margin-top: 10%;
+    padding: 13px 32px;
+
+    cursor: pointer;
+    text-decoration: none;
+
+    color: #fff;
+    border-radius: 8px;
+    background: linear-gradient(to bottom, #599e9b 5%, #624979 100%);
+    background-color: #599e9b;
+    box-shadow: 0 10px 14px -7px #276873;
+    text-shadow: 0 1px 0 #3d768a;
 }
-.myButton:active {
-    position:relative;
-    top:1px;
+.myButton:hover
+{
+    background: linear-gradient(to bottom, #624979 5%, #599e9b 100%);
+    background-color: #408c99;
+}
+.myButton:active
+{
+    position: relative;
+    top: 1px;
 }
 /*IMAGES*/
 
@@ -266,6 +283,9 @@ hr
 
 #mount
 {
+    position: absolute;
+    top: 60%;
+
     display: inline-block;
 
     width: 100%;
@@ -286,7 +306,8 @@ hr
     /*
     width: 260px;
     height: 169px;*/
-    height: 27%;
+
+    transition: .5s linear;
 }
 
 #UFO:hover
@@ -297,8 +318,41 @@ hr
 
     display: inline-block;
 
-    width: 22%;
-    height: 29%;
+    width: 24%;
+
+    transition-duration: .5s;
+    -webkit-transform: rotateZ(20deg);
+        -ms-transform: rotateZ(20deg);
+            transform: rotateZ(20deg);
+
+
+    /*   box-shadow:
+    1px 1px #53ea93,
+    2px 2px #53ea93,
+    3px 3px #53ea93,
+    4px 4px #53ea93,
+    5px 5px #53ea93,
+    6px 6px #53ea93,
+    7px 7px #53ea93;*/
+}
+
+#imgname
+{
+    position: absolute;
+    top: 7%;
+
+    height: 300px;
+    margin-left: 30%;
+}
+
+
+#imgsecon
+{
+    position: absolute;
+    top: 26%;
+
+    height: 200px;
+    margin-left: 35%;
 }
 
 #bird
@@ -599,11 +653,11 @@ font-family: 'Rock Salt', cursive; */
 
     .topnav a
     {
-        font-size: 80%;
+        font-size: 20px;
 
         float: left;
 
-        padding: 3% 6%;
+        padding: 7px 10px;
 
         text-align: center;
         text-decoration: none;
@@ -628,7 +682,14 @@ font-family: 'Rock Salt', cursive; */
     .name
     {
         font-family: 'Rock Salt', cursive;
-        font-size: 18px;
+        font-size: 6px;
+
+        position: absolute;
+        top: 15%;
+
+        display: inline-block;
+
+        margin-left: 40%;
         /*    display: block;
     margin-top: 0;
     margin-right: auto;
@@ -636,11 +697,9 @@ font-family: 'Rock Salt', cursive; */
 
         text-align: center;
     }
-
     .t-cont
     {
         width: 100%;
-        height: 20%;
         margin-top: 30px;
 
         background-image: linear-gradient(to bottom left, #07031a 20%, #a6dcef, #ddf3f5);
@@ -664,6 +723,9 @@ font-family: 'Rock Salt', cursive; */
 
     .m-cont
     {
+        position: absolute;
+        top: 50%;
+
         width: 100%;
         height: auto;
         margin-top: 0;
@@ -772,10 +834,13 @@ font-family: 'Rock Salt', cursive; */
 
     #mount
     {
+        position: absolute;
+        top: 40%;
+
         display: inline-block;
 
         width: 100%;
-        height: 20%;
+        height: 30%;
         margin-bottom: 0;
         padding-bottom: 0;
     }
@@ -820,6 +885,26 @@ font-family: 'Rock Salt', cursive; */
 
         width: 4%;
         height: auto;
+    }
+
+
+    #imgname
+    {
+        position: absolute;
+        top: 15%;
+
+        height: 120px;
+        margin-left: 20%;
+    }
+
+
+    #imgsecon
+    {
+        position: absolute;
+        top: 26%;
+
+        height: 80px;
+        margin-left: 30%;
     }
 
 
@@ -871,6 +956,7 @@ font-family: 'Rock Salt', cursive; */
 
         transform: rotate(15deg);
     }
+
 
     #imgh2
     {
@@ -944,7 +1030,7 @@ font-family: 'Rock Salt', cursive; */
         top: 35%;
         right: 21%;
 
-        height: 15%;
+        height: 5%;
 
         transform: rotate(-35deg);
     }

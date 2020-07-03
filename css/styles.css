@@ -12,7 +12,7 @@ body {
     height: 100%;
     margin: 0;
 
-    background-color: #aadeef;
+    background-color: #E0EBE8;
 }
 
 hr {
@@ -26,7 +26,21 @@ hr {
 
     border-width: 5px;
     border-style: dotted none none;
-    border-color: #496a93;
+    border-color: #808080;
+}
+
+hr:hover {
+    display: block;
+
+    width: 30%;
+    margin-top: .5em;
+    margin-right: auto;
+    margin-bottom: .5em;
+    margin-left: auto;
+
+    border-width: 5px;
+    border-style: dotted none none;
+    border-color: #599E9B;
 }
 
 .content {
@@ -49,7 +63,7 @@ hr {
 
     width: 100%;
 
-    background-color: #241a3d;
+    background-color: #808080;
 }
 
 .topnav a:not(.rt-4) {
@@ -110,7 +124,7 @@ hr {
     height: 520px;
     margin-top: 50px;
 
-    background-image: linear-gradient(to bottom left, #07031a 20%, #a6dcef, #ddf3f5);
+    background-image: linear-gradient(to bottom left, #07031a 20%, #808080, #E0EBE8 80%);
 }
 
 #mount {
@@ -205,7 +219,7 @@ hr {
     height: auto;
     margin-top: 0;
 
-    background-color: #aadeef;
+    background-color: #E0EBE8;
 }
 
 
@@ -276,6 +290,14 @@ hr {
     height: 220px;
 }
 
+/*----------------------CONTACT---------------------*/
+
+
+.icons {
+    position: absolute;
+    top: 50%;
+}
+
 /*--------------------FOOTER----------------*/
 
 .footer {
@@ -291,7 +313,7 @@ hr {
 
     text-align: center;
 
-    background-color: #624979;
+    background-color: #241A3D;
 }
 
 /*------------------HOBBIES----------------*/
@@ -364,7 +386,7 @@ hr {
 
     height: 30%;
 
-    box-shadow: 0 0 10px 5px #f00;
+    box-shadow: 0 0 10px 5px #5C4187;
     border-radius: 10%;
 }
 
@@ -376,7 +398,7 @@ hr {
 
     height: 30%;
 
-    box-shadow: 0 0 10px 5px #f00;
+    box-shadow: 0 0 10px 5px #5C4187;
     border-radius: 10%;
 }
 
@@ -388,7 +410,7 @@ hr {
 
     height: 30%;
 
-    box-shadow: 0 0 10px 5px #f00;
+    box-shadow: 0 0 10px 5px #5C4187;
     border-radius: 10%;
 }
 
@@ -400,7 +422,7 @@ hr {
 
     height: 30%;
 
-    box-shadow: 0 0 10px 5px #f00;
+    box-shadow: 0 0 10px 5px #5C4187;
     border-radius: 10%;
 }
 
@@ -447,7 +469,7 @@ hr {
 
     letter-spacing: 10px;
 
-    color: #624979;
+    color: #599E9B;
 }
 
 .smoke ul:hover li {
@@ -498,8 +520,9 @@ hr {
 
     display: block;
 
-    width: 100%;
+    width: 90%;
     margin-top: 80px;
+    padding-left: 40px;
 }
 
 #whydev {
@@ -523,7 +546,7 @@ hr {
     }
 
     .topnav a:not(.rt-4) {
-        font-size: 20px;
+        font-size: 22px;
 
         float: left;
 
@@ -552,11 +575,13 @@ hr {
     }
 
     #rt-4 {
+        padding-top: auto;
+        padding-bottom: auto;
         float: left;
 
-        height: 52px;
-        padding-right: 45px;
-        padding-left: 45px;
+        height: 40px;
+        padding-right: 20px;
+        padding-left: 10px;
     }
 
     #imgname {
@@ -632,7 +657,7 @@ hr {
         height: auto;
         margin-top: 0;
 
-        background-color: #aadeef;
+        background-color: #E0EBE8;
     }
 
 
@@ -759,7 +784,7 @@ hr {
 
         text-align: center;
 
-        background-color: #624979;
+        background-color: #241A3D;
     }
 
     #cloudy {
@@ -796,7 +821,7 @@ hr {
 
         letter-spacing: 2px;
 
-        color: #624979;
+        color: #599E9B;
     }
 
     .smoke ul:hover li {
@@ -871,7 +896,7 @@ hr {
 
         height: 30%;
 
-        box-shadow: 0 0 10px 5px #f00;
+        box-shadow: 0 0 10px 5px #5C4187;
         border-radius: 10%;
     }
 
@@ -883,7 +908,7 @@ hr {
 
         height: 30%;
 
-        box-shadow: 0 0 10px 5px #f00;
+        box-shadow: 0 0 10px 5px #5C4187;
         border-radius: 10%;
     }
 
@@ -895,7 +920,7 @@ hr {
 
         height: 30%;
 
-        box-shadow: 0 0 10px 5px #f00;
+        box-shadow: 0 0 10px 5px #5C4187;
         border-radius: 10%;
     }
 
@@ -907,7 +932,7 @@ hr {
 
         height: 30%;
 
-        box-shadow: 0 0 10px 5px #f00;
+        box-shadow: 0 0 10px 5px #5C4187;
         border-radius: 10%;
     }
 
@@ -919,5 +944,4 @@ hr {
 
         height: 70%;
     }
-
 }
